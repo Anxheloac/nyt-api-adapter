@@ -1,0 +1,45 @@
+{
+    "copyright": "Copyright (c) 2025 The New York Times Company.  All Rights Reserved.",
+    "num_results": 36639,
+    "results": [
+        {
+            "age_group": "",
+            "author": "Diana Gabaldon",
+            "contributor": "by Diana Gabaldon",
+            "contributor_note": "",
+            "description": "The author of the Outlander novels gives tips on writing sex scenes, drawing on examples from the books.",
+            "isbns": [
+                {
+                    "isbn10": "0399178570",
+                    "isbn13": "9780399178573"
+                }
+            ],
+            "price": "0.00",
+            "publisher": "Dell",
+            "ranks_history": [
+                {
+                    "asterisk": 0,
+                    "bestsellers_date": "2016-08-20",
+                    "dagger": 0,
+                    "display_name": "Advice, How-To & Miscellaneous",
+                    "list_name": "Advice How-To and Miscellaneous",
+                    "primary_isbn10": "0399178570",
+                    "primary_isbn13": "9780399178573",
+                    "published_date": "2016-09-04",
+                    "rank": 8,
+                    "rank_last_week": 0,
+                    "weeks_on_list": 1
+                }
+            ],
+            "reviews": [
+                {
+                    "article_chapter_link": "",
+                    "book_review_link": "",
+                    "first_chapter_link": "",
+                    "sunday_review_link": ""
+                }
+            ],
+            "title": "\"I GIVE YOU MY BODY ...\""
+        }
+    ]
+}
