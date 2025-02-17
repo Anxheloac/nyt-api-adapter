@@ -4,6 +4,7 @@ namespace Tests\Unit;
 
 use App\Services\BookService;
 use App\Tools\CacheService;
+use App\Tools\ICacheService;
 use Tests\NytApiMockTrait;
 use Tests\TestCase;
 use Tests\HelperTrait;
@@ -38,7 +39,7 @@ class BookServiceTest extends TestCase
     {
         $bestSellerHistoryWithResult = $this->load_fixture_data('best_sellers_history.json', true);
 
-        $cacheServiceMock = $this->getMockBuilder(CacheService::class)
+        $cacheServiceMock = $this->getMockBuilder(ICacheService::class)
                                     ->getMock();
 
         $cacheServiceMock->method('cacheApiResponse')

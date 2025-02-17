@@ -4,7 +4,7 @@ namespace App\Services;
 
 use App\Exceptions\NytApiException;
 use App\Services\NYTApi\BookApi as NytBookApi;
-use App\Tools\CacheService;
+use App\Tools\ICacheService;
 use Illuminate\Http\Client\ConnectionException;
 
 class BookService
@@ -14,7 +14,7 @@ class BookService
      */
     public function __construct(
         protected NytBookApi $nytBookApi,
-        protected CacheService $cacheService
+        protected ICacheService $cacheService
     ) {}
 
     /**

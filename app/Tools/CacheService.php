@@ -4,7 +4,7 @@ namespace App\Tools;
 
 use Illuminate\Support\Facades\Cache;
 
-class CacheService
+class CacheService implements ICacheService
 {
     /**
      * Cache an API response.
